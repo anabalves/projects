@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./scripts/script.js"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon__image">
+        
+        <p class="pokemon__data">
+            <span class="pokemon__number"></span>&#8201;&#8208;&#8201;<span class="pokemon__name"></span>
+        </p>
+
+        <form class="pokemon__form">
+            <input 
+                type="search"
+                class="pokemon_search"
+                placeholder="Name or Number"
+                required
+            >
+        </form>
+
+        <div class="pokemon__buttons">
+            <button class="pokemon__button btn-prev">&lt;</button>
+            <button class="pokemon__button btn-next">&gt;</button>
+        </div>
+        
+        <img src="./assets/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+    <footer>Coded&nbsp;by&nbsp;<a href="https://github.com/anabalves" target="_blank">Ana&nbsp;Alves</a>&nbsp;&copy;&nbsp;<script>document.write(new Date().getFullYear())</script></footer>
+</body>
+</html>

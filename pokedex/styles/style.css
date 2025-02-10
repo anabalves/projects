@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+main {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+main img.pokedex {
+    width: 100%;
+}
+
+main img.pokemon__image {
+    position: absolute;
+    bottom: 45%;
+    left: 26%;
+    transform: translate(-40%, 20%);
+    height: 17%;
+}
+
+main p.pokemon__data {
+    position: absolute;
+    bottom: 14%;
+    left: 14.5%;
+    transform: rotate(-2.5deg);
+    font-weight: bolder;
+    color: #353535;
+    font-size: clamp(7px, 2vw, .85rem);
+    height: 9%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+main p.pokemon__data span.pokemon__name {
+    text-transform: capitalize;
+}
+
+main form.pokemon__form {
+    position: absolute;
+    bottom: 57%;
+    left: 59.5%;
+    transform: rotate(-2.5deg);
+    width: 30%;
+}
+
+main form.pokemon__form input.pokemon_search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    caret-color: #999;
+    color: #999;
+    font-size: clamp(7px, 2vw, 1.5rem);
+}
+
+main form.pokemon__form input.pokemon_search::placeholder {
+    color: #999; 
+}
+
+main div.pokemon__buttons {
+    position: absolute;
+    bottom: 28.5%;
+    left: 59%;
+    transform: rotate(-2.5deg);
+    width: 11.5%;
+    height: 6%;
+    display: flex;
+}
+
+main div.pokemon__buttons button.pokemon__button {
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: clamp(7px, 2vw, 2rem);
+    font-weight: 600;
+    color: #999; 
+    cursor: pointer;
+}
+
+main div.pokemon__buttons button.pokemon__button:hover:not([disabled]) {
+    background-color: rgb(212, 212, 212);
+    color: #555;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    font-size: clamp(9px, 2vw, 1rem);
+    color: hsl(0, 0%, 0%);
+    margin-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}

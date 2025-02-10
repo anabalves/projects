@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hind+Madurai:wght@300;400;500;600;700&family=Iceland&display=swap');
+
+:root {
+	--blue-bg: hsl(212, 38%, 13%);
+	--white: hsl(0, 0%, 100%);
+	
+	--normal-green: hsl(147, 100%, 33%);
+	--normal-red: hsl(357, 83%, 34%);
+	--normal-yellow: hsl(49, 93%, 41%);
+	--normal-blue: hsl(211, 88%, 30%);
+	
+	--light-green: 	hsl(147, 100%, 54%);
+	--light-red: hsl(0, 100%, 65%);
+	--light-yellow: hsl(48, 99%, 62%);
+	--light-blue: 	hsl(210, 100%, 55%);
+	
+	--border: hsl(0, 0%, 20%);
+	--center: hsl(283, 17%, 92%);
+	
+	--counter-bg: hsl(351, 82%, 11%);
+	--counter-off: hsl(351, 81%, 15%);
+	--counter-on: hsl(352, 89%, 46%);
+	
+	--led-off: 	hsl(351, 81%, 15%);
+	--led-on: hsl(352, 89%, 46%);
+	
+	--switch: hsl(206, 72%, 53%);
+	
+	--game-size: 48rem;
+	--game-border: 1.5rem solid var(--border);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Bungee', verdana, sans-serif;
+    background-color: var(--blue-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: var(--game-size);
+}
+
+.game {
+    width: var(--game-size);
+    height: var(--game-size);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.game__title {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 4.7rem;
+}
+
+.game__reg {
+    font-family: verdana, sans-serif;
+    font-size: 1.8rem;
+    margin-left: -1rem;
+    vertical-align: top;
+}
+
+.game__pad {
+    width: calc(var(--game-size) / 2);
+    height: calc(var(--game-size) / 2);
+    border: var(--game-border);
+}
+
+.game__pad--tl {
+    background-color: var(--normal-green);
+    border-top-left-radius: 100%;
+}
+
+.game__pad--tr {
+    background-color: var(--normal-red);
+    border-top-right-radius: 100%;
+}
+
+.game__pad--bl {
+    background-color: var(--normal-yellow);
+    border-bottom-left-radius: 100%;
+}
+
+.game__pad--br {
+    background-color: var(--normal-blue);
+    border-bottom-right-radius: 100%;
+}
+
+.game__pad--tl.game__pad--active {
+    background-color: var(--light-green);
+}
+
+.game__pad--tr.game__pad--active {
+    background-color: var(--light-red);
+}
+
+.game__pad--bl.game__pad--active {
+    background-color: var(--light-yellow);
+}
+
+.game__pad--br.game__pad--active {
+    background-color: var(--light-blue);
+}
+
+.game__pad--btn {
+    cursor: pointer;
+}
+
+.game__options {
+    background-color: var(--center);
+    width: calc(var(--game-size) / 2);
+    height: calc(var(--game-size) / 2);
+    position: absolute;
+    border: var(--game-border);
+    border-radius: 25rem;
+}
+
+.game__gui {
+    padding-left: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.game__gui__group {
+    margin-right: 2.2rem;
+}
+
+.game__gui__group--large {
+    display: flex;
+    width: 10rem;
+    margin-left: 4.5rem;
+    margin-top: .5rem;
+}
+
+.game__gui__label {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.game__gui__label--switch {
+    margin: 0;
+    padding-top: 0.75rem;
+}
+
+.game__gui__btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: .2rem;
+    border-radius: 5rem;
+    box-shadow: 0 .2rem .3rem #222;
+    border: .4rem solid #444;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+
+.game__gui__btn:active {
+    transform: translate(0, .3rem);
+    box-shadow: none;
+}
+
+.game__gui__btn--start {
+    background-color: red;
+}
+
+.game__gui__btn--strict {
+    background-color: yellow;
+}
+
+.game__gui__btn--switch {
+    background-color: #222;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    width: 5rem;
+    height: 2.3rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.game__gui__btn--switch::before {
+    content: "";
+    background-color: var(--switch);
+    display: block;
+    position: relative;
+    left: 2.5rem;
+    width: 2.2rem;
+    height: 1.9rem;
+    border-radius: .3rem;
+    border: .2rem solid #333;
+}
+
+.game__gui__btn--switch--on::before {
+    left: 0;
+}
+
+.game__gui__counter {
+    background-color: var(--counter-bg);
+    color: var(--counter-off);
+    font-family: 'Iceland', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: right;
+    width: 5.5rem;
+    border: .3rem solid #000;
+    border-radius: 1rem;
+    padding-right: .2rem;
+    padding-left: .3rem;
+    margin-bottom: .5rem;
+}
+
+.game__gui__counter--on {
+    color: var(--counter-on);
+}
+
+.game__gui__led {
+    background-color: var(--led-off);
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    width: .8rem;
+    height: .8rem;
+    border: .2rem solid #222;
+    border-radius: 2rem;
+}
+
+.game__gui__led--active {
+    background-color: var(--led-on);
+}
+
+footer {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--white);
+    margin-top: 5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 45%;
+    }
+}

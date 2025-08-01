@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="rating-card">
+        <div class="rating-card__content">
+          <img src="./images/icon-star.svg" alt="star" class="star" />
+          <h1 class="rating-card__title">How did we do?</h1>
+          <p class="rating-card__description">
+            Please let us know how we did with your support request. All feedback
+            is appreciated to help us improve our offering!
+          </p>
+          <form class="form">
+            <div>
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  id="rate-1"
+                  class="form__radio-input"
+                  name="rate-value"
+                  value="1"
+                />
+                <label for="rate-1" class="form__radio-label">
+                  <span class="form__radio-button">
+                    <span>1</span>
+                  </span>
+                </label>
+              </div>
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  id="rate-2"
+                  class="form__radio-input"
+                  name="rate-value"
+                  value="2"
+                />
+                <label for="rate-2" class="form__radio-label">
+                  <span class="form__radio-button">
+                    <span>2</span>
+                  </span>
+                </label>
+              </div>
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  id="rate-3"
+                  class="form__radio-input"
+                  name="rate-value"
+                  value="3"
+                />
+                <label for="rate-3" class="form__radio-label">
+                  <span class="form__radio-button">
+                    <span>3</span>
+                  </span>
+                </label>
+              </div>
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  id="rate-4"
+                  class="form__radio-input"
+                  name="rate-value"
+                  value="4"
+                />
+                <label for="rate-4" class="form__radio-label">
+                  <span class="form__radio-button">
+                    <span>4</span>
+                  </span>
+                </label>
+              </div>
+              <div class="form__radio-group">
+                <input
+                  type="radio"
+                  id="rate-5"
+                  class="form__radio-input"
+                  name="rate-value"
+                  value="5"
+                />
+                <label for="rate-5" class="form__radio-label">
+                  <span class="form__radio-button">
+                    <span>5</span>
+                  </span>
+                </label>
+              </div>
+            </div>
+            <button class="form__button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io/solutions/interactive-rating-component-rxlQ6QuJ3D" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/anabalves" target="_blank">anabalves</a>.
+      </div>
+    </main>
+    <script src="./scripts/script.js" defer></script>
+  </body>
+</html>

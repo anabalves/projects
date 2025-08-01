@@ -1,0 +1,5 @@
+acme:
+  insurance:
+    cache-ttl-seconds:
+      catalog-product: 60
+      catalog-offer: 60

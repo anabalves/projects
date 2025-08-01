@@ -1,39 +1,74 @@
-# 🚀 Small Projects
+<h1 align="center">🛠️ Projects Portfolio</h1>
 
-This repository contains a collection of small projects that I have developed to experiment with new technologies, improve my programming skills, and explore different concepts. These projects range from frontend challenges to API development, serving as a portfolio of my continuous learning and growth.
+<p align="center">
+  A mix of personal, technical, and learning-focused projects, from backend systems and DevOps experiments to small frontend challenges.
+</p>
 
-## 📂 Project Categories
+---
 
-### 🖥️ Frontend Challenges
-- Projects built from platforms like [Frontend Mentor](https://www.frontendmentor.io/) and other UI/UX coding challenges.
-- Focused on improving CSS, JavaScript, React, TypeScript, and responsive design skills.
+## ✨ What’s This Repo?
 
-### 🔗 API Development
-- Small RESTful and GraphQL APIs using:
-  - **Node.js** (Express, NestJS)
-  - **Java** (Spring Boot)
-  - **Go** (Gin, Fiber)
-  - **Python** (FastAPI, Flask)
-- Backend-focused projects exploring API design, authentication, database interactions, and cloud deployments.
+This is a collection of projects I’ve built while learning, experimenting, or trying out new ideas.  
+It brings together everything from API development and cloud-native tools to fun little side projects and frontend practice.
 
-### 🎯 Miscellaneous Projects
-- Experiments with different programming languages, libraries, and frameworks.
-- Mini projects exploring automation, scripting, algorithms, and DevOps tools.
+Some are full-blown backend systems with solid architecture. Others are smaller, focused on specific concepts like testing, containerization, CI/CD, or simply exploring new frameworks.
 
-## 🛠️ Technologies Used
-- **Frontend:** HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS.
-- **Backend:** Node.js (Express, NestJS), Java (Spring Boot), Go (Gin, Fiber), Python (FastAPI).
-- **Databases:** PostgreSQL, MySQL, MongoDB, Firebase.
-- **DevOps & Tools:** Docker, Kubernetes, GitHub Actions, AWS, Terraform, Postman.
+---
+
+## 📁 Project Types
+
+### 🧠 Backend & Systems
+
+Projects focused on backend architecture, APIs, clean code, scalability, and real-world patterns.
+
+- **Languages:** Java (Spring Boot), Python (FastAPI/Flask), Go (Gin/Fiber), TypeScript (NestJS)
+- **Topics:** REST & GraphQL, authentication, testing (unit/integration), observability, DDD, event-driven design
+
+---
+
+### ☁️ Cloud & DevOps
+
+Projects where I explore cloud infrastructure, automation, and platform engineering tools.
+
+- **Tools:** Docker, Kubernetes, Helm, Terraform, GitHub Actions
+- **Clouds:** AWS, GCP, Azure
+- **What I build:** CI/CD pipelines, IaC setups, containerized apps, cluster configs, monitoring dashboards
+
+---
+
+### 🧪 Mini Projects & Playground
+
+Small experiments or utilities — quick ideas I wanted to try or skills I was sharpening.
+
+- Shell scripts, CLI tools, automation, random APIs, architecture tests
+
+---
+
+### 🎨 Frontend Challenges (Bonus!)
+
+While backend is my main focus, I occasionally enjoy UI challenges too.
+
+- Platforms: Frontend Mentor and others
+- Tech: HTML, CSS, TypeScript
+
+---
+
+## 🧰 Tech Highlights
+
+| Area        | Stack                                                                 |
+|-------------|------------------------------------------------------------------------|
+| **Backend** | Java, Spring Boot, NestJS, Express, FastAPI, Flask, Go                |
+| **Frontend**| HTML, CSS, JavaScript, TypeScript                                     |
+| **Databases**| PostgreSQL, MongoDB, MySQL                                           |
+| **DevOps**  | Docker, Kubernetes, Helm, GitHub Actions, Terraform                   |
+| **Cloud**   | AWS, GCP, Azure                                                       |
+
+---
 
 ## 📌 Notes
-Each project has its own directory with a dedicated README containing:
-- A brief description of the project.
-- Technologies used.
-- Installation and usage instructions.
 
-Feel free to explore, clone, and contribute! 🚀
-
-## 🔗 Links
-- [GitHub Profile](https://github.com/anabalves)
-- [LinkedIn](https://www.linkedin.com/in/anabalvess/)
+- Every project has its own folder with a `README.md` that includes:
+  - 📄 What it does  
+  - ⚙️ Stack used  
+  - 🚀 How to run it (locally or with Docker)
+- This repo is always evolving ;)

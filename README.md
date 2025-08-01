@@ -1,63 +1,46 @@
-<h1 align="center">🛠️ Projects Portfolio</h1>
+# 🛠️ Projects
 
-<p align="center">
-  A mix of personal, technical, and learning-focused projects, from backend systems and DevOps experiments to small frontend challenges.
-</p>
+Welcome to my **Projects** repository — a collection of personal, technical, and learning-focused projects built while studying or exploring new ideas.
 
----
-
-## ✨ What’s This Repo?
-
-This is a collection of projects I’ve built while learning, experimenting, or trying out new ideas.  
-It brings together everything from API development and cloud-native tools to fun little side projects and frontend practice.
-
-Some are full-blown backend systems with solid architecture. Others are smaller, focused on specific concepts like testing, containerization, CI/CD, or simply exploring new frameworks.
+This repository includes backend systems, DevOps experiments, frontend challenges, and automation tools — ranging from full-featured applications to smaller experiments.
 
 ---
 
-## 📁 Project Types
+## 📁 Repository Structure
 
-### 🧠 Backend & Systems
+Each project is located in its own folder and includes its own source files, assets, and `README.md`.
 
-Projects focused on backend architecture, APIs, clean code, scalability, and real-world patterns.
-
-- **Languages:** Java (Spring Boot), Python (FastAPI/Flask), Go (Gin/Fiber), TypeScript (NestJS)
-- **Topics:** REST & GraphQL, authentication, testing (unit/integration), observability, DDD, event-driven design
-
----
-
-### ☁️ Cloud & DevOps
-
-Projects where I explore cloud infrastructure, automation, and platform engineering tools.
-
-- **Tools:** Docker, Kubernetes, Helm, Terraform, GitHub Actions
-- **Clouds:** AWS, GCP, Azure
-- **What I build:** CI/CD pipelines, IaC setups, containerized apps, cluster configs, monitoring dashboards
-
----
-
-### 🧪 Mini Projects & Playground
-
-Small experiments or utilities — quick ideas I wanted to try or skills I was sharpening.
-
-- Shell scripts, CLI tools, automation, random APIs, architecture tests
+```shell
+projects/
+├── 3-column-preview-card-component/
+├── genius-game/
+├── interactive-rating-component/
+├── nft-preview-card-component/
+├── order-summary-component/
+├── pokedex/
+├── product-preview-card-component/
+├── profile-card-component/
+├── qr-code-component/
+├── stats-preview-card-component/
+└── ...
+```
 
 ---
 
-### 🎨 Frontend Challenges (Bonus!)
+## 🧠 Project Categories
 
-While backend is my main focus, I occasionally enjoy UI challenges too.
-
-- Platforms: Frontend Mentor and others
-- Tech: HTML, CSS, TypeScript
+- **Backend & Systems** – REST & GraphQL APIs, clean architecture, testing, messaging, caching, observability
+- **Cloud & DevOps** – Docker, Kubernetes, Terraform, CI/CD, monitoring dashboards
+- **Mini Projects & Playground** – CLI tools, shell scripts, automation, one-off tests
+- **Frontend Challenges** – Layout implementations and UI logic using HTML, CSS, JavaScript, TypeScript
 
 ---
 
-## 🧰 Tech Highlights
+## 🛠️ Technologies
 
 | Area        | Stack                                                                 |
 |-------------|------------------------------------------------------------------------|
-| **Backend** | Java, Spring Boot, NestJS, Express, FastAPI, Flask, Go                |
+| **Backend** | Java (Spring Boot), Go, Python (FastAPI/Flask), TypeScript (NestJS)   |
 | **Frontend**| HTML, CSS, JavaScript, TypeScript                                     |
 | **Databases**| PostgreSQL, MongoDB, MySQL                                           |
 | **DevOps**  | Docker, Kubernetes, Helm, GitHub Actions, Terraform                   |
@@ -65,10 +48,16 @@ While backend is my main focus, I occasionally enjoy UI challenges too.
 
 ---
 
-## 📌 Notes
+## 📌 How to Explore
 
-- Every project has its own folder with a `README.md` that includes:
-  - 📄 What it does  
-  - ⚙️ Stack used  
-  - 🚀 How to run it (locally or with Docker)
-- This repo is always evolving ;)
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/anabalves/projects.git
+   ```
+
+2. Navigate to a project folder:
+   ```bash
+   cd genius-game/
+   ```
+
+3. Open the README.md to understand the goal, stack, and how to run it.

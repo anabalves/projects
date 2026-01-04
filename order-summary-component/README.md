@@ -21,9 +21,7 @@ Your users should be able to:
 
 [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-wNLFPufv3_) 
 
-[Live Site URL](https://order-summary-component-anabalves.netlify.app/) 
-
 ##  Built with
-HTML
 
-CSS
+- HTML
+- CSS

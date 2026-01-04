@@ -22,9 +22,7 @@ Your users should be able to:
 
 [Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-aCgwIdnVHM) 
 
-[Live Site URL](https://product-preview-card-component-anabalves.netlify.app/) 
-
 ##  Built with
-HTML5
 
-CSS3
+- HTML
+- CSS

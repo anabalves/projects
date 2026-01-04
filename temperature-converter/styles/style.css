@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #F2D6AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-temperature {
+    min-width: 250px;
+    max-width: 500px;
+    background-color: #FFF;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px 30px;
+}
+
+.titulo-temperature {
+    color: #d1b082;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+
+.label-temperature {
+    color: #d1b082;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+
+.input-temperature {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    border: 2px solid #d2d2d2;
+    outline: none;
+}
+
+.input-temperature:focus {
+    border-color: #d1b082;
+}

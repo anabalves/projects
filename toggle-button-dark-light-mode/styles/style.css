@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0A0F2F;
+}
+
+body.active {
+    background: #F6F9FE;
+}
+
+#toggle {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 160px;
+    border-radius: 160px;
+    background: #171E3B;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 8px 60px rgba(14, 15, 41, 0.1),
+                inset 0 8px 8px rgba(14, 15, 41, 0.1),
+                inset 0 -4px 4px rgba(14, 15, 41, 0.1);
+}
+
+#toggle.active {
+    background: rgb(244, 248, 255);
+    box-shadow: inset 0 2px 60px rgba(48, 48, 48, 0.1),
+                inset 0 2px 8px rgba(0, 0, 0, 0.1),
+                inset 0 -4px 4px rgba(0, 0, 0, 0.05);
+}
+
+#toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(to bottom, #1b1e38, #191f3f);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: 0 8px 40px rgba(5, 17, 56, 0.5),
+                inset 0 4px 4px rgba(65, 65, 85, 0.2),
+                inset 0 -4px 4px rgba(65, 65, 85, 0.2);
+    transition: 0.5s;
+}
+
+#toggle.active .indicator {
+    left: 160px;
+    background: linear-gradient(to bottom, #ffffff, #f0f4fd);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1),
+    inset 0 4px 4px rgb(247, 248, 255),
+    inset 0 -4px 4px rgba(247, 248, 255);
+}

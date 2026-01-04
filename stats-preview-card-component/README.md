@@ -21,9 +21,7 @@ Your users should be able to:
 
 [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-id3C2tpz3q) 
 
-[Live Site URL](https://stats-preview-card-component-anabalves.netlify.app/) 
-
 ##  Built with
-HTML
 
-CSS
+- HTML
+- CSS

@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "c07b47a8-b29f-4a93-a30a-0ca09f249376",
+		"name": "pokedex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12625101"
+	},
+	"item": [
+		{
+			"name": "All Pokemons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokemon By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons/62ed5ff67e8e17660f5feaac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"62ed5ff67e8e17660f5feaac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Pokemon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Blastoise\",\r\n    \"category\": \"Shellfish\",\r\n    \"ability\": \"Torrent\",\r\n    \"weight\": 85.5,\r\n    \"height\": 1.6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/pokemons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Pokemon",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Blastoise\",\r\n    \"category\": \"Shellfish\",\r\n    \"ability\": \"Torrent\",\r\n    \"weight\": 85.6,\r\n    \"height\": 1.7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/pokemons/62ed60277e8e17660f5feab5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"62ed60277e8e17660f5feab5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Pokemon",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons/62ed60b3d71ad6245336e89c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"62ed60b3d71ad6245336e89c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete All Pokemons",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokemon Events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

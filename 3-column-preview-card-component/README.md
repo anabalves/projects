@@ -23,8 +23,7 @@ Your users should be able to:
 
 [Solution URL](https://www.frontendmentor.io/solutions/3column-preview-card-component-ZqB_5WaJ1_) 
 
-[Live Site URL](https://3column-preview-card-component-anabalves.netlify.app/) 
-
 ##  Built with
-HTML
-CSS
+
+- HTML
+- CSS

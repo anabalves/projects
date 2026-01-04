@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(53, 53, 53);
+    color: #ffffff;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ff484e;
+}
+
+.principal {
+    margin: auto 30px;
+}
+
+.principal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.principal li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #ff7176;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #fd9498;
+    font-style: italic;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section section {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f6b1b3;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.form-inline {
+    padding: 60px;
+    width: 100%;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline label {
+    margin: 5px 10px 5px 0;
+    text-align: right;
+}
+
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.form-inline button {
+    padding: 10px 20px;
+    background-color: #ff7176;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+}
+
+.form-inline button:hover {
+    background-color: #f6444a;
+}
+
+@media (max-width: 480px) {
+    .form-inline input {
+        margin: 10px 0;
+    }
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

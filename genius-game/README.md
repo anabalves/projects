@@ -9,10 +9,6 @@
 
 This is a web-based implementation of the classic memory game "Genius." Test your memory and pattern recognition skills by repeating the sequences of colors and sounds in the correct order.
 
-## Live Demo
-
-Check out the live demo of the Genius Game [here](https://genius-game-anabalves.netlify.app).
-
 ## Features
 
 - A fun and challenging game to test your memory.
